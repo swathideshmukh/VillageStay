@@ -1,0 +1,29 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  z-index: 999;
+}
+
+.navbar-logo {
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: #333;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}

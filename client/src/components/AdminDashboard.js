@@ -7,7 +7,7 @@ function AdminDashboard() {
   useEffect(() => {
     const fetchBookings = async () => {
       try {
-        const res = await axios.get('http://localhost:5000/api/bookings');
+        const res = await axios.get('https://villagestay-l7yc.onrender.com/api/bookings');
         setBookings(res.data);
       } catch (err) {
         console.error("❌ Failed to load bookings:", err);

@@ -1,10 +1,11 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
+  "description": "VillageStay backend server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +16,8 @@
     "dotenv": "^17.1.0",
     "express": "^5.1.0",
     "mongoose": "^8.16.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
   }
 }
